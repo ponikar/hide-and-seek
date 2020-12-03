@@ -1,6 +1,6 @@
 import 'react-native-gesture-handler';
 import React, { useEffect } from 'react'
-import { View } from 'react-native'
+import { View, Text } from 'react-native'
 import SplashScreen from 'react-native-splash-screen'
 const App = () => {
 
@@ -8,7 +8,9 @@ const App = () => {
    SplashScreen.hide();
   }, []);
 
-  return <View />;
+  return <View>
+    <Text>Hello world!</Text>
+  </View>;
 }
 
 export default App;
