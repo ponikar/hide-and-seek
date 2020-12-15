@@ -1,11 +1,11 @@
 
-const { StyleSheet } = require("react-native");
-const { layoutStyle } = require("../../Common/Styles/layout.style");
+import { StyleSheet } from "react-native";
 
 
 export const primaryLabelStyle = StyleSheet.create({
     container: {
-       ...layoutStyle.container,
+        marginVertical:10,
+        marginHorizontal:10
     },
     textStyle: {
         textAlign:"center",

@@ -1,7 +1,6 @@
-import { textStyle } from "../../Common/Styles/text.style";
 import colors from "../../Helper/Constants/colors.constants";
 
-const { StyleSheet } = require("react-native");
+import { StyleSheet } from "react-native"
 
 
 export const pribtnStyle = StyleSheet.create({
@@ -16,6 +15,7 @@ export const pribtnStyle = StyleSheet.create({
         borderColor: "#fff"
     },
     text: {
-        ...textStyle.centerWhite,
-    }
+        color: "#fff",
+        textAlign: "center",  
+    },
 });

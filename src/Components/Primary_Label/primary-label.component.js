@@ -4,9 +4,9 @@ import { primaryLabelStyle } from './primary-label.style';
 
 
 
-const PrimaryLabel = ({label = "label", large}) => (
+const PrimaryLabel = ({label = "label", large, infoColor, style}) => (
     <View style={primaryLabelStyle.container}>
-    <Text style={[primaryLabelStyle.textStyle, { fontSize: large ? 20 : 14 }]}> { label } </Text>
+    <Text style={[primaryLabelStyle.textStyle, { fontSize: large ? 20 : 13, color: infoColor ? "grey" : "black" },style]}> { label } </Text>
     </View>);
 
 
